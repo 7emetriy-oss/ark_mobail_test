@@ -3,7 +3,7 @@ from tkinter import *                       # імпортування всіх 
 root = Tk()                                 # створення головного вікна
 root.title("Редактор тексту")               # встановлення заголовку вікна
 root.geometry("600x400")                    # встановлення розмірів вікна
-root.iconbitmap("morda.ico")                # встановлення іконки вікна
+root.iconbitmap("img/morda.ico")                # встановлення іконки вікна
 
 f_text = Frame(root)                        # рамка для текстового поля
 f_text.pack(fill=BOTH,  expand=1)           # розтягування рамки на весь простір вікна
